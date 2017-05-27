@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tn.chn.senthilsubramanian.vibgyordesign.VibgyorMain">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="5"
+        android:id="@+id/redId"
+        android:gravity="center"
+        android:background="@color/colorRED"
+        android:text="RED" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="5"
+        android:id="@+id/orangeId"
+        android:gravity="center"
+        android:background="@color/colorORANGE"
+        android:text="ORANGE" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="5"
+        android:id="@+id/yellowId"
+        android:gravity="center"
+        android:background="@color/colorYELLOW"
+        android:text="YELLOW" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="5"
+        android:id="@+id/greenId"
+        android:gravity="center"
+        android:background="@color/colorGREEN"
+        android:text="GREEN" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="5"
+        android:id="@+id/blueId"
+        android:gravity="center"
+        android:background="@color/colorBLUE"
+        android:text="BLUE" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="5"
+        android:id="@+id/indigoId"
+        android:gravity="center"
+        android:background="@color/colorINDIGO"
+        android:text="INDIGO" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="5"
+        android:id="@+id/voiletId"
+        android:gravity="center"
+        android:background="@color/colorVOILET"
+        android:text="VOILET" />
+
+</LinearLayout>
