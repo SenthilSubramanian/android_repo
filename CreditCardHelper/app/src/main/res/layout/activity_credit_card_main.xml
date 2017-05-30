@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:id="@+id/gridMain"
+        android:layout_weight="90"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="6"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:textColor="@color/whitesmoke"
+                android:text="Enter Card Balance ($) "
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="Enter Yearly Interest Rate (%) "
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/whitesmoke" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="Enter Minimum Payment ($) "
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/whitesmoke" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="Final Card Balance ($) "
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/whitesmoke" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="Months Remaining "
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/whitesmoke" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="Interest Paid Will Be ($)"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/whitesmoke" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearEdit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="6"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittextstyle"
+                android:inputType="number" />
+
+
+            <EditText
+                android:id="@+id/editText2"
+                android:background="@drawable/edittextstyle"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:layout_height="0dp" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:background="@drawable/edittextstyle"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:layout_height="0dp" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:background="@drawable/edittextstyle"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:layout_height="0dp" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:background="@drawable/edittextstyle"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:layout_height="0dp" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:background="@drawable/edittextstyle"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:layout_height="0dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonCompute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:layout_below="@+id/gridMain"
+        android:text="@string/button1" />
+
+    <Button
+        android:id="@+id/buttonClear"
+        android:text="@string/button2"
+        android:layout_below="@+id/buttonCompute"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+
